@@ -1,0 +1,60 @@
+/* Reset some default styles */  
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+body {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    background-color: #f0e68c; /* A light background color */  
+    font-family: 'Courier New', Courier, monospace; /* A vintage font style */  
+}  
+
+.digital-clock {  
+    text-align: center;  
+    background-color: #fff;  
+    border: 2px solid #ccc; /* Light border */  
+    border-radius: 10px;  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */  
+    padding: 20px;  
+    width: 300px; /* Fixed width for the clock */  
+}  
+
+.week {  
+    margin-bottom: 20px;  
+}  
+
+.day {  
+    display: inline-block;  
+    font-size: 14px;  
+    color: #666; /* Gray color for the days */  
+    margin: 0 5px; /* Spacing between the days */  
+}  
+
+.clock {  
+    font-size: 48px; /* Large clock display */  
+    color: #333; /* Dark color for the time */  
+    margin-top: 10px;  
+}  
+
+.hour, .minute, .second {  
+    display: inline-block;  
+    padding: 10px 20px; /* Padding around time elements */  
+    border-radius: 5px; /* Rounded corners */  
+}  
+
+.hour {  
+    background-color: #ffcc00; /* Gold color for the hour */  
+}  
+
+.minute {  
+    background-color: #0099ff; /* Blue color for minutes */  
+}  
+
+.second {  
+    background-color: #ff3366; /* Red color for seconds */  
+}  
